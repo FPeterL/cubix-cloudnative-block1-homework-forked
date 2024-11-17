@@ -35,8 +35,8 @@ jobs:
 
       - name: Build and Push Docker Image
         run: |
-          docker build . -t ghcr.io/FPeterL/cubix/1/homework/app:springboot
-          docker push ghcr.io/FPeterL/cubix/1/homework/app:springboot
+          docker build . -t ghcr.io/fpeterl/cubix/1/homework/app:springboot
+          docker push ghcr.io/fpeterl/cubix/1/homework/app:springboot
 
   verify:
     name: Verify Docker Image
